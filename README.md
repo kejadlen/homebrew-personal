@@ -1,4 +1,4 @@
-homebrew-kejadlen
+homebrew-personal
 =================
 
 Personal Homebrew formulae
