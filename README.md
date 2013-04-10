@@ -1,4 +1,4 @@
 homebrew-personal
 =================
 
-Personal Homebrew formulae
+Personal Homebrew formula
