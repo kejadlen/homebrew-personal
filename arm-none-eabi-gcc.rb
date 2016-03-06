@@ -2,11 +2,11 @@ class ArmNoneEabiGcc < Formula
   # https://github.com/nitsky/homebrew-stm32/blob/master/arm-none-eabi-gcc.rb
   desc "GCC for embedded ARM processors"
   homepage "https://launchpad.net/gcc-arm-embedded"
-  url "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2"
-  version "20150921"
-  sha256 "a6353db31face60c2091c2c84c902fc4d566decd1aa04884cd822c383d13c9fa"
+  url "https://launchpad.net/gcc-arm-embedded/5.0/5-2015-q4-major/+download/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
+  version "5-2015-q4-major"
+  sha256 "41056ffeba4bcb5bbea13185461a1269613ac13321fbda3e7dc59ee664ee3f06"
 
   def install
-    cp_r ["arm-none-eabi", "bin", "lib", "share"], "#{prefix}/"
+    prefix.install "arm-none-eabi", "bin", "lib", "share"
   end
 end
