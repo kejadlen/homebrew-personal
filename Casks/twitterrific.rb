@@ -1,6 +1,6 @@
 cask 'twitterrific' do
   version '5.0'
-  sha256 '18d3a17902048d3804b2b080480acc722c404b8e82872f9537fe3d8d081f42ef'
+  sha256 '862b3a1324e0ef3f563d32e69034216c2d74afa89721f4031d2436614b0ca056'
 
   url 'https://iconfactory.com/assets/software/phoenix/Twitterrific-5.0+76.zip'
   name 'Twitterrific'
